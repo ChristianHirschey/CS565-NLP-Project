@@ -1,0 +1,42 @@
+{
+  "Model 1 (TF-IDF)": {
+    "model_name": "Model 1 (TF-IDF)",
+    "spearman_correlation": 0.3827248138458964,
+    "spearman_p_value": 2.2313400387721878e-08,
+    "pearson_correlation": 0.4237704604598031,
+    "pearson_p_value": 4.0367180598586574e-10,
+    "avg_inference_time_ms": 4.3790364265441895,
+    "min_inference_time_ms": 0.0,
+    "max_inference_time_ms": 17.173051834106445
+  },
+  "Model 2 (TF-IDF+NER)": {
+    "model_name": "Model 2 (TF-IDF+NER)",
+    "spearman_correlation": 0.4307963825998145,
+    "spearman_p_value": 1.920568063009498e-10,
+    "pearson_correlation": 0.47206226417953573,
+    "pearson_p_value": 1.7067431938845577e-12,
+    "avg_inference_time_ms": 507.74136900901794,
+    "min_inference_time_ms": 269.75226402282715,
+    "max_inference_time_ms": 808.4502220153809
+  },
+  "Model 3 (BERT)": {
+    "model_name": "Model 3 (BERT)",
+    "spearman_correlation": 0.2981412477971311,
+    "spearman_p_value": 1.804134702811434e-05,
+    "pearson_correlation": 0.20202298985759348,
+    "pearson_p_value": 0.004120737361776175,
+    "avg_inference_time_ms": 77.95222520828247,
+    "min_inference_time_ms": 63.19308280944824,
+    "max_inference_time_ms": 250.4570484161377
+  },
+  "Model 4 (Gemini)": {
+    "model_name": "Model 4 (Gemini)",
+    "spearman_correlation": 0.650154375787536,
+    "spearman_p_value": 2.069314740920284e-25,
+    "pearson_correlation": 0.5870846092237069,
+    "pearson_p_value": 6.456191994033302e-20,
+    "avg_inference_time_ms": 911.0106253623962,
+    "min_inference_time_ms": 610.3701591491699,
+    "max_inference_time_ms": 5945.254564285278
+  }
+}

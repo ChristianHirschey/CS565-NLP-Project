@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Output/Results files
+all_model_scores.json
+model_4_rationales.json
+*.log
+
+# Model caches
+.cache/
+.huggingface/
+.sentence-transformers/
+.spacy/
+
+# Project-specific
+data/resumes/*.txt
+data/job_descriptions/*.txt
+manual_scores.json

@@ -1,0 +1,23 @@
+# Requirements for Resume-JD Matching Models
+# Install with: pip install -r requirements.txt
+
+# Model 1: TF-IDF
+scikit-learn>=1.3.0
+
+# Model 2: TF-IDF + NER
+spacy>=3.7.0
+# Download spaCy model with: python -m spacy download en_core_web_sm
+
+# Model 3: BERT
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# Model 4: LLM API
+google-genai>=0.2.0
+python-dotenv>=1.0.0
+
+# Evaluation
+scipy>=1.11.0
+
+# Utilities
+numpy>=1.24.0
